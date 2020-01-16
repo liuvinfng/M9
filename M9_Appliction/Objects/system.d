@@ -1,0 +1,9 @@
+.\objects\system.o: Tuya\system.c
+.\objects\system.o: Tuya\wifi.h
+.\objects\system.o: Tuya\protocol.h
+.\objects\system.o: Tuya\system.h
+.\objects\system.o: Tuya\mcu_api.h
+.\objects\system.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system.o: Tuya\wifi2.h
+.\objects\system.o: .\INC\debug.h
+.\objects\system.o: .\INC\config.h

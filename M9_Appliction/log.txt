@@ -1,0 +1,49 @@
+2019.10.30
+
+void ActList_DecelerateToStop(void)
+{
+	ActList_Clear();
+//	ActList_Add(MOVE_ACT_DECELERATE,0,0,0);
+//	ActList_Add(MOVE_ACT_STATIC,0,0,0);
+	Action_SetMove(MOVE_ACT_HANDLER);
+}
+
+void ActList_WallOffEdgeStop(WallDir_t wall_dir)
+{
+	ActList_Clear();
+//	ActList_Add(MOVE_ACT_DECELERATE,0,0,0);
+//	ActList_Add(MOVE_ACT_STATIC,0,0,0);
+	Action_SetMove(MOVE_ACT_HANDLER);
+}
+
+
+2019.10.30
+
+1.沿边调好
+2.清扫完成，记住沿边起始点，沿墙一圈，结束清扫
+
+
+
+2019.11.5
+
+注释了ICM42688_Config();	
+
+2019.11.27
+问题：
+1、转圈
+2、沿边  CM_UpdateMapWallBlock(temp_robot_cell,wall_dir);
+3、跨行  
+CM_MoveToPosition(492):rotate angle is too small222,so forward a 
+
+1、解决沿边一直碰撞问题；
+2、解决沿边直线往前冲问题；
+3、解决清扫完成，沿边两圈或半圈问题；
+4、解决清扫无故转圈问题；
+5、解决清扫跨行问题；
+
+2019.11.28
+1、沿边直线行走检测跨行；
+2、有时候最短路径不连贯
+
+
+

@@ -1,0 +1,1974 @@
+Dependencies for Project '880P', Target '880P_BL': (DO NOT MODIFY !)
+F (.\SRC\main.c)(0x5E16F297)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\TestMode.h)(0x5D8889C8)
+I (.\INC\W25Q16.h)(0x5E031800)
+F (.\SRC\Charge.c)(0x5E046E3C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\charge.o --omf_browse .\objects\charge.crf --depend .\objects\charge.d)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\UserInterface.h)(0x5D79E5FC)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\RTC.h)(0x5D82DAE9)
+F (.\SRC\TestMode.c)(0x5E168FDB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\testmode.o --omf_browse .\objects\testmode.crf --depend .\objects\testmode.d)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\TestMode.h)(0x5D8889C8)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\RTC.h)(0x5D82DAE9)
+I (.\INC\IR.h)(0x5CE8D832)
+I (.\INC\Flash.h)(0x57A40AD8)
+I (.\INC\Gyro.h)(0x5DFC6CA9)
+I (.\INC\W25Q16.h)(0x5E031800)
+F (.\Tuya\mcu_api.c)(0x5DFADE08)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\mcu_api.o --omf_browse .\objects\mcu_api.crf --depend .\objects\mcu_api.d)
+I (Tuya\wifi.h)(0x5DF493B3)
+I (Tuya\protocol.h)(0x5DFC70F7)
+I (Tuya\system.h)(0x5DFB1FD9)
+I (Tuya\mcu_api.h)(0x5DFADDF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (Tuya\wifi2.h)(0x5DF493B3)
+F (.\Tuya\protocol.c)(0x5E09CDFE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\protocol.o --omf_browse .\objects\protocol.crf --depend .\objects\protocol.d)
+I (Tuya\wifi.h)(0x5DF493B3)
+I (Tuya\protocol.h)(0x5DFC70F7)
+I (Tuya\system.h)(0x5DFB1FD9)
+I (Tuya\mcu_api.h)(0x5DFADDF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\INC\movement.h)(0x5DFC644C)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\INC\rcon.h)(0x5DFC4195)
+I (.\INC\w25q16.h)(0x5E031800)
+F (.\Tuya\system.c)(0x5E0054B8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (Tuya\wifi.h)(0x5DF493B3)
+I (Tuya\protocol.h)(0x5DFC70F7)
+I (Tuya\system.h)(0x5DFB1FD9)
+I (Tuya\mcu_api.h)(0x5DFADDF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (Tuya\wifi2.h)(0x5DF493B3)
+I (.\INC\debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\config.h)(0x5E16F229)
+F (.\SRC\SysInitialize.c)(0x5E0486F2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\sysinitialize.o --omf_browse .\objects\sysinitialize.crf --depend .\objects\sysinitialize.d)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\gd32f30x_it.c)(0x5E169097)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_it.o --omf_browse .\objects\gd32f30x_it.crf --depend .\objects\gd32f30x_it.d)
+I (.\INC\gd32f30x_it.h)(0x5D79E642)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\main.h)(0x5D79E5FC)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\UserInterface.h)(0x5D79E5FC)
+I (.\INC\RTC.h)(0x5D82DAE9)
+I (.\INC\Gyro.h)(0x5DFC6CA9)
+F (.\SRC\Movement.c)(0x5E16EDF3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\movement.o --omf_browse .\objects\movement.crf --depend .\objects\movement.d)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\Rcon.h)(0x5DFC4195)
+F (.\SRC\Display.c)(0x5E02F862)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\display.o --omf_browse .\objects\display.crf --depend .\objects\display.d)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\SPI.h)(0x5DA3D253)
+F (.\SRC\USART.c)(0x5DFC4368)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\Gyro.h)(0x5DFC6CA9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (.\SRC\SPI.c)(0x5DA3D2B4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\INC\SPI.h)(0x5DA3D253)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\Speaker.c)(0x5E09CFC2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\speaker.o --omf_browse .\objects\speaker.crf --depend .\objects\speaker.d)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\SPI.h)(0x5DA3D253)
+I (.\INC\W25Q16.h)(0x5E031800)
+F (.\SRC\Rcon.c)(0x5DFC40A2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\rcon.o --omf_browse .\objects\rcon.crf --depend .\objects\rcon.d)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\RTC.c)(0x5E0DC92D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (.\INC\RTC.h)(0x5D82DAE9)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\TouchPad.c)(0x5D803543)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\touchpad.o --omf_browse .\objects\touchpad.crf --depend .\objects\touchpad.d)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\Rcon.h)(0x5DFC4195)
+F (.\SRC\Gyro.c)(0x5E0472B0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gyro.o --omf_browse .\objects\gyro.crf --depend .\objects\gyro.d)
+I (.\INC\Gyro.h)(0x5DFC6CA9)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\UserInterface.h)(0x5D79E5FC)
+I (.\INC\Rcon.h)(0x5DFC4195)
+I (.\INC\RTC.h)(0x5D82DAE9)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599EDB3A)
+I (.\INC\SPI.h)(0x5DA3D253)
+I (C:\Keil_v5\ARM\ARMCC\include\String.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+F (.\SRC\Wheel.c)(0x5D847386)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\wheel.o --omf_browse .\objects\wheel.crf --depend .\objects\wheel.d)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\Obscliff.c)(0x5D887171)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\obscliff.o --omf_browse .\objects\obscliff.crf --depend .\objects\obscliff.d)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\Bldc.c)(0x5DFC43C9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\bldc.o --omf_browse .\objects\bldc.crf --depend .\objects\bldc.d)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\WifiOTA.c)(0x5E09CDB5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\wifiota.o --omf_browse .\objects\wifiota.crf --depend .\objects\wifiota.d)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\W25Q16.h)(0x5E031800)
+I (C:\Keil_v5\ARM\ARMCC\include\String.h)(0x599EDB3C)
+F (.\SRC\W25Q16.c)(0x5DA41A91)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\w25q16.o --omf_browse .\objects\w25q16.crf --depend .\objects\w25q16.d)
+I (.\INC\W25Q16.h)(0x5E031800)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (.\INC\SPI.h)(0x5DA3D253)
+F (.\SRC\Brush.c)(0x5D7F21B5)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\brush.o --omf_browse .\objects\brush.crf --depend .\objects\brush.d)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+F (.\SRC\Debug.c)(0x5D79E500)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (.\INC\Debug.h)(0x5DFC4377)
+I (.\INC\USART.h)(0x5DFC4351)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\INC\config.h)(0x5E16F229)
+I (.\INC\Zone.h)(0x5CE28298)
+I (.\INC\MyMath.h)(0x5D79E5FC)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (.\INC\SysInitialize.h)(0x5E03218E)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\INC\Movement.h)(0x5DFC644C)
+I (.\INC\Obscliff.h)(0x5D7F6261)
+I (.\INC\Wheel.h)(0x5D7F3FF8)
+I (.\INC\Bldc.h)(0x5D7F29F5)
+I (.\INC\Brush.h)(0x5D7F217F)
+I (.\INC\TouchPad.h)(0x5D802FD5)
+I (.\INC\Display.h)(0x5D7F47D5)
+I (.\INC\Charge.h)(0x5D857E9C)
+I (.\INC\Speaker.h)(0x5DA3D4B9)
+I (.\INC\WifiOTA.h)(0x5E031E55)
+I (.\Tuya\wifi.h)(0x5DF493B3)
+I (.\Tuya\protocol.h)(0x5DFC70F7)
+I (.\Tuya\system.h)(0x5DFB1FD9)
+I (.\Tuya\mcu_api.h)(0x5DFADDF8)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x599EDB3A)
+I (.\INC\Map.h)(0x5D79E5FC)
+I (.\INC\PathPlanning.h)(0x5C4A62CE)
+F (.\SRC\printf-stdarg.c)(0x577C7CD8)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\printf-stdarg.o --omf_browse .\objects\printf-stdarg.crf --depend .\objects\printf-stdarg.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_adc.o --omf_browse .\objects\gd32f30x_adc.crf --depend .\objects\gd32f30x_adc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c)(0x58D1C8DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_bkp.o --omf_browse .\objects\gd32f30x_bkp.crf --depend .\objects\gd32f30x_bkp.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_can.c)(0x58AFA6EA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_can.o --omf_browse .\objects\gd32f30x_can.crf --depend .\objects\gd32f30x_can.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c)(0x5881DF0F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_crc.o --omf_browse .\objects\gd32f30x_crc.crf --depend .\objects\gd32f30x_crc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c)(0x587D78FA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_ctc.o --omf_browse .\objects\gd32f30x_ctc.crf --depend .\objects\gd32f30x_ctc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c)(0x58A65CF2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_dac.o --omf_browse .\objects\gd32f30x_dac.crf --depend .\objects\gd32f30x_dac.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_dbg.o --omf_browse .\objects\gd32f30x_dbg.crf --depend .\objects\gd32f30x_dbg.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c)(0x58D1C8DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_dma.o --omf_browse .\objects\gd32f30x_dma.crf --depend .\objects\gd32f30x_dma.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c)(0x58A5096C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_enet.o --omf_browse .\objects\gd32f30x_enet.crf --depend .\objects\gd32f30x_enet.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x58A5096D)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c)(0x5881DF0F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_exmc.o --omf_browse .\objects\gd32f30x_exmc.crf --depend .\objects\gd32f30x_exmc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c)(0x587D78FA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_exti.o --omf_browse .\objects\gd32f30x_exti.crf --depend .\objects\gd32f30x_exti.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_fmc.o --omf_browse .\objects\gd32f30x_fmc.crf --depend .\objects\gd32f30x_fmc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_fwdgt.o --omf_browse .\objects\gd32f30x_fwdgt.crf --depend .\objects\gd32f30x_fwdgt.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_gpio.o --omf_browse .\objects\gd32f30x_gpio.crf --depend .\objects\gd32f30x_gpio.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_i2c.o --omf_browse .\objects\gd32f30x_i2c.crf --depend .\objects\gd32f30x_i2c.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c)(0x587D78FA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_misc.o --omf_browse .\objects\gd32f30x_misc.crf --depend .\objects\gd32f30x_misc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c)(0x58EAF8D0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_pmu.o --omf_browse .\objects\gd32f30x_pmu.crf --depend .\objects\gd32f30x_pmu.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_rcu.o --omf_browse .\objects\gd32f30x_rcu.crf --depend .\objects\gd32f30x_rcu.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c)(0x58D1C8DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_rtc.o --omf_browse .\objects\gd32f30x_rtc.crf --depend .\objects\gd32f30x_rtc.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c)(0x58D1C8DE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_sdio.o --omf_browse .\objects\gd32f30x_sdio.crf --depend .\objects\gd32f30x_sdio.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_spi.o --omf_browse .\objects\gd32f30x_spi.crf --depend .\objects\gd32f30x_spi.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c)(0x58AFA6EA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_timer.o --omf_browse .\objects\gd32f30x_timer.crf --depend .\objects\gd32f30x_timer.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c)(0x58A65CF2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_usart.o --omf_browse .\objects\gd32f30x_usart.crf --depend .\objects\gd32f30x_usart.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Library\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c)(0x58E6E84A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\gd32f30x_wwdgt.o --omf_browse .\objects\gd32f30x_wwdgt.crf --depend .\objects\gd32f30x_wwdgt.d)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Device\system_gd32f30x.c)(0x5D83558E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Library\GD32F30x_standard_peripheral\Include -I .\Library\CMSIS\GD\GD32F30x\Include -I .\Library\CMSIS -I .\INC -I .\Device -I .\Tuya-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F303xE -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\objects\system_gd32f30x.o --omf_browse .\objects\system_gd32f30x.crf --depend .\objects\system_gd32f30x.d)
+I (.\Library\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x5DA3D2EF)
+I (.\Library\CMSIS\core_cm4.h)(0x5A03D4A7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5DF48656)
+I (.\Library\CMSIS\core_cmInstr.h)(0x5A03D4AA)
+I (.\Library\CMSIS\core_cmFunc.h)(0x5A03D4A9)
+I (.\Library\CMSIS\core_cm4_simd.h)(0x5A03D4A9)
+I (.\Library\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x5A03D51C)
+I (.\INC\gd32f30x_libopt.h)(0x5A03D462)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x58AFA6EB)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x5881DF0F)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x58A65CF2)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x58EAF8D0)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x5D775986)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x58A5096D)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x58D1C8DE)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x58E6E84A)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x587D78FA)
+I (.\Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x58AFA6EB)
+F (.\Device\startup_gd32f30x_hd.s)(0x5DFC2F55)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_880P_BL-IC:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F303xE SETA 1"--list .\listings\startup_gd32f30x_hd.lst --xref -o .\objects\startup_gd32f30x_hd.o --depend .\objects\startup_gd32f30x_hd.d)
